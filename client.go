@@ -1,7 +1,7 @@
-package go_buy365
+package go_epay
 
 import (
-	"github.com/asaka1234/go-buy365/utils"
+	"github.com/asaka1234/go-epay/utils"
 	"github.com/go-resty/resty/v2"
 )
 

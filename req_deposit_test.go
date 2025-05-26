@@ -1,4 +1,4 @@
-package go_buy365
+package go_epay
 
 import (
 	"fmt"
@@ -19,8 +19,8 @@ func TestDeposit(t *testing.T) {
 	fmt.Printf("resp:%+v\n", resp)
 }
 
-func GenDepositRequestDemo() Buy365DepositReq {
-	return Buy365DepositReq{
+func GenDepositRequestDemo() EPayDepositReq {
+	return EPayDepositReq{
 		OrderId:     "3234", //商户uid
 		UserId:      "30779639363",
 		OrderIp:     "18.29.120.32",

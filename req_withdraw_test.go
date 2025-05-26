@@ -1,4 +1,4 @@
-package go_buy365
+package go_epay
 
 import (
 	"fmt"
@@ -19,9 +19,9 @@ func TestWithdraw(t *testing.T) {
 	fmt.Printf("resp:%+v\n", resp)
 }
 
-func GenWithdrawRequestDemo() Buy365WithdrawReq {
-	return Buy365WithdrawReq{
-		Data: []Buy365WithdrawData{
+func GenWithdrawRequestDemo() EPayWithdrawReq {
+	return EPayWithdrawReq{
+		Data: []EPayWithdrawData{
 			{
 				UserName:    "你好", //商户uid
 				BankCardNo:  "30787",

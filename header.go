@@ -1,4 +1,4 @@
-package go_buy365
+package go_epay
 
 func getHeaders() map[string]string {
 	return map[string]string{
